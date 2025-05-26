@@ -1,0 +1,10 @@
+name: first
+
+on: workflow_dispatch
+
+jobs: 
+    job1:
+        runs-on: ubuntu-latest
+        steps:
+            - name: print hello sms
+            - run: echo "Hello Pratik"
