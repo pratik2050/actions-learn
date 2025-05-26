@@ -7,4 +7,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: print hello sms
-            - run: echo "Hello Pratik"
+              run: echo "Hello Pratik"
